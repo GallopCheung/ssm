@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean id="studentDao" class="com.zhangchi.dao.StudentDao"/>
+    <bean id="studentService" class="com.zhangchi.service.StudentService">
+      &lt;!&ndash;  <constructor-arg name="studentDao" ref="studentDao"/>&ndash;&gt;
+        <property name="studentDao" ref="studentDao"/>
+    </bean>-->
+    <bean id="userDao" class="com.zhangchi.dao.UserDao"/>
+    <bean id="userService" class="com.zhangchi.service.UserService">
+        <property name="userDao" ref="userDao"/>
+        <property name="age" value="23"/>
+        <property name="name" value="张大炮"/>
+        <property name="set">
+            <set>
+                <value>34.23</value>
+                <value>12.23</value>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>Poser</value>
+                <value>Tom</value>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="k1" value="v1"/>
+                <entry key="k2" value="v2"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="p1">v1</prop>
+                <prop key="p2">v2</prop>
+            </props>
+        </property>
+
+    </bean>
+
+
+
+</beans>
