@@ -2,13 +2,202 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef14741b-9a39-4944-8b1d-688c45562dc3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/entity/ProductExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/entity/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/java/com/zhangchi/util/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/src/test/java/ExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/ProductExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/ProductExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/ProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/ProductExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/StudentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/StudentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/entity/StudentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/mapper/ProductMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/com/zhangchi/util/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/classes/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis-generator/target/test-classes/ExampleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/spring-mybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/java/com/zhangchi/entity/Kaola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/java/com/zhangchi/entity/KaolaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/java/com/zhangchi/mapper/KaolaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/resources/mapper/KaolaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/test/java/com/zhangchi/mapper/KaolaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/src/test/java/com/zhangchi/test/BaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/com/zhangchi/entity/Kaola.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/com/zhangchi/entity/KaolaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/com/zhangchi/entity/KaolaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/com/zhangchi/entity/KaolaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/com/zhangchi/entity/KaolaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/com/zhangchi/mapper/KaolaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/mapper/KaolaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/test-classes/com/zhangchi/mapper/KaolaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mybatis/target/test-classes/com/zhangchi/test/BaseTestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/spring-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/aop/AopAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/proxy/Lenovo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/proxy/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/proxy/SubjectInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/proxy/cglib/ProxySale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/proxy/cglib/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/java/com/zhangchi/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/resources/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/test/java/com/zhangchi/dao/BaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/test/java/com/zhangchi/dao/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/test/java/com/zhangchi/dao/Proxy/AopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/test/java/com/zhangchi/dao/Proxy/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/test/java/com/zhangchi/dao/Proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/src/test/java/com/zhangchi/dao/testSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/aop/AopAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/dao/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/proxy/Lenovo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/proxy/Proxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/proxy/Sale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/proxy/SubjectInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/proxy/cglib/ProxySale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/proxy/cglib/Sale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/com/zhangchi/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/BaseTestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/JdbcTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/Proxy/AopTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/Proxy/CglibTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/Proxy/CglibTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/Proxy/ProxyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-test/target/test-classes/com/zhangchi/dao/testSpring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangchi/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangchi/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhangchi/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhangchi/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhangchi/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhangchi/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-07-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-07-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/user/add_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/user/add_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/user/home_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/user/home_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/springannotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/java/com/zhangchi/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/java/com/zhangchi/BaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/java/com/zhangchi/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/java/com/zhangchi/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/java/com/zhangchi/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/java/com/zhangchi/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/test/java/productServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/src/test/java/springtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/com/zhangchi/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/com/zhangchi/BaseTestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/com/zhangchi/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/com/zhangchi/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/com/zhangchi/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/com/zhangchi/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/test-classes/productServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springannotation/target/test-classes/springtest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../triage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mybatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis-generator/mybatis-generator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -363,12 +552,12 @@
       <workItem from="1531992635664" duration="1784000" />
       <workItem from="1532045037070" duration="9229000" />
       <workItem from="1532077629836" duration="3843000" />
-      <workItem from="1532233073209" duration="1317000" />
+      <workItem from="1532233073209" duration="1912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16173000" />
+    <option name="totallyTimeSpent" value="16768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
