@@ -1,3 +1,4 @@
-com\zhangchi\controller\UserController.class
+com\zhangchi\controller\FileUploadController.class
 com\zhangchi\controller\HelloController.class
 com\zhangchi\entity\User.class
+com\zhangchi\controller\UserController.class

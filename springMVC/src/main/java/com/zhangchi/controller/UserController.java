@@ -1,10 +1,9 @@
 package com.zhangchi.controller;
 
 import com.zhangchi.entity.User;
+import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author 张驰
@@ -37,5 +36,21 @@ public class UserController {
         return "/user/home";
     }
 
+    @GetMapping("/{id:\\d+}")
+    public String showUser(@RequestParam(name = "pageNo",defaultValue = "1") Integer p,
+                           @PathVariable(name = "id") Integer userId,  Model model){
+
+        System.out.println("pageNo:" + p);
+        System.out.println("get user..." + userId);
+        model.addAttribute("userId",userId);
+        return "user/home";
+    }
+
+    @GetMapping
+    public String userSave(){
+
+        return null;
+
+    }
 
 }
